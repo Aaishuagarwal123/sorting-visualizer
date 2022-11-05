@@ -3,7 +3,7 @@
   }
   
   body {
-    background-color: beige;
+    background-color: rgb(245, 146, 198);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     zoom: 75%;
@@ -41,7 +41,7 @@
   }
   .bar {
     width: var(--width);
-    background-color: rgb(192, 73, 73);
+    background-color: rgb(70, 2, 116);
     margin-right: 2px;
     margin-left: 5px;
     display: inline-block;
@@ -50,16 +50,18 @@
   
   /* Sort Btn */
   .btn-lg {
-    background-color: red;
+    background-color: rgb(8, 0, 6);
+    font-style: oblique;
     font-size: 1.75rem;
     font-weight: bold;
     width: 225px;
   }
   
-  /* .bar:hover {
+  .bar:hover {
     transition: 0.3s ease-out;
     box-shadow: 10px 10px 10px 10px purple;
+
     width: 3%;
     margin: 0px 5px 0px 7px;
-  } */
-  
+  }
+ 
